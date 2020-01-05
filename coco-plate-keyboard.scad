@@ -60,8 +60,14 @@ module switch_holes() {
     
 }
 
-// define the plate base
-difference() {
-    cube([keyboard_width, keyboard_height, 1], center = false);
-    switch_holes();
+module keeb() {
+    // define the plate base
+    difference() {
+        cube([keyboard_width, keyboard_height, 1], center = false);
+        switch_holes();
+    }
+}
+
+projection() {
+    keeb();
 }
