@@ -8,7 +8,7 @@ module keyboard_holes() {
     // lots of fudge factor in here to try and turn the 'keyboard' into 'keyboard holes'
     difference() {
         translate([0, 0, -(hole_depth / 2)]) {
-            cube([290, 110, hole_depth]);
+            cube([280, 110, hole_depth]);
         }
         translate([-20, -20, 0]) {
             linear_extrude(height = 1.6, center = true, convexity = 5)
@@ -18,6 +18,8 @@ module keyboard_holes() {
 }
 
 difference() {
-    cube([base_plate_width, base_plate_depth, 0.5]); 
+    translate([base_plate_fudge_x, base_plate_fudge_y, 0]) {
+        cube([base_plate_width, base_plate_depth, 0.5]); 
+    }
     keyboard_holes();
 }
