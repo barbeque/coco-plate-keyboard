@@ -7,9 +7,9 @@ base_plate_fudge_y = 0;
 module keyboard_holes() {
     difference() {
         translate([0, 0, -(hole_depth / 2)]) {
-            cube([290, 125, hole_depth]);
+            cube([290, 110, hole_depth]);
         }
-        translate([-10, -10, 0]) {
+        translate([-15, -15, 0]) {
             linear_extrude(height = 1.6, center = true, convexity = 5)
                 import(file = "coco-keyboard-plate-with-20mm-padding.dxf");
         }
