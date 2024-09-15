@@ -744,169 +744,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1059,6 +896,236 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 26.67) (xy 279.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08762a89-2d99-478f-bdb4-5064655d6a5f")
+	)
+	(wire
+		(pts
+			(xy 81.28 82.55) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092a6067-29c3-4d86-97f2-f9b0dd82227f")
+	)
+	(wire
+		(pts
+			(xy 243.84 82.55) (xy 243.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec854ef-f056-40b7-9d56-690b382d9764")
+	)
+	(wire
+		(pts
+			(xy 127 46.99) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176859ff-df79-4349-b873-7e78622978c7")
+	)
+	(wire
+		(pts
+			(xy 71.12 64.77) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b6a322-2d1b-4f21-bb70-3ab3c097eaad")
+	)
+	(wire
+		(pts
+			(xy 287.02 64.77) (xy 287.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1920d98a-a89c-4255-81f5-b86c2480b64e")
+	)
+	(wire
+		(pts
+			(xy 182.88 82.55) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1921c668-489c-4886-8d27-c7ebda04ad9f")
+	)
+	(wire
+		(pts
+			(xy 132.08 64.77) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efe71f0-5c47-4824-9a17-f03e9fe57dd5")
+	)
+	(wire
+		(pts
+			(xy 55.88 26.67) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21865747-3b8d-48e6-b4c2-6bdcf1025c2c")
+	)
+	(wire
+		(pts
+			(xy 299.72 26.67) (xy 299.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ab0c04-4fdd-41b4-b70b-825624d1a8d1")
+	)
+	(wire
+		(pts
+			(xy 86.36 46.99) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cfa9f8-20bb-46ba-a3a6-ec203d12c290")
+	)
+	(wire
+		(pts
+			(xy 238.76 26.67) (xy 238.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3120a1c0-30a4-4eb1-a433-f237665a56a9")
+	)
+	(wire
+		(pts
+			(xy 193.04 64.77) (xy 193.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340b8a0d-c445-480e-873b-61b00be0ba1b")
+	)
+	(wire
+		(pts
+			(xy 264.16 82.55) (xy 264.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eda9e0-db05-4cec-bb63-9f16ae2c4186")
+	)
+	(wire
+		(pts
+			(xy 198.12 26.67) (xy 198.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39529d24-ccdd-465c-be6b-c9db281a2d34")
+	)
+	(wire
+		(pts
+			(xy 233.68 64.77) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4109ad22-2359-46eb-857a-8cdab40f735e")
+	)
+	(wire
+		(pts
+			(xy 172.72 64.77) (xy 172.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7e037c-60bc-48b6-9bad-49e2e6b18e95")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 45.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f311253-6a0c-4250-ba46-fa86b4325961")
+	)
+	(wire
+		(pts
+			(xy 208.28 46.99) (xy 208.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520e6748-cabc-4334-9856-b52ad358c795")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52166032-3e7a-41d9-9de1-a879daa41fab")
+	)
+	(wire
+		(pts
+			(xy 76.2 26.67) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58df3036-3ac4-4d08-be8c-e6ae01472a6f")
+	)
+	(wire
+		(pts
+			(xy 203.2 82.55) (xy 203.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f2654f-51b3-4e36-8fda-0009cf40f328")
+	)
+	(wire
+		(pts
+			(xy 218.44 26.67) (xy 218.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a37481a-ab0c-4dab-983c-f6fdf83441b9")
+	)
+	(wire
+		(pts
 			(xy 46.99 114.3) (xy 54.61 114.3)
 		)
 		(stroke
@@ -1066,6 +1133,46 @@
 			(type default)
 		)
 		(uuid "620e0be4-091b-4e81-acfe-309fef2bad7b")
+	)
+	(wire
+		(pts
+			(xy 106.68 46.99) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62534999-d3ef-46f5-a1d5-80230195ee2c")
+	)
+	(wire
+		(pts
+			(xy 66.04 46.99) (xy 66.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67187778-85e5-47f2-8901-aab0799bc420")
+	)
+	(wire
+		(pts
+			(xy 248.92 46.99) (xy 248.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680d9d51-0186-4e24-983b-02c0b528fc96")
+	)
+	(wire
+		(pts
+			(xy 162.56 82.55) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd36662-19ec-4f4b-83ae-2eda9c4f9c1e")
 	)
 	(wire
 		(pts
@@ -1086,6 +1193,36 @@
 			(type default)
 		)
 		(uuid "7233422f-b31e-431a-b3ce-b4da07b72f51")
+	)
+	(wire
+		(pts
+			(xy 259.08 26.67) (xy 259.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e3dbf4-350c-4dae-ba58-d04c098141a9")
+	)
+	(wire
+		(pts
+			(xy 213.36 64.77) (xy 213.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d5212e-15e1-4326-a897-41bf071e71ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 26.67) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1926c7-5256-4d8a-b652-8859bc63fb88")
 	)
 	(wire
 		(pts
@@ -1119,6 +1256,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 26.67) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8175c40d-6c21-4261-b209-97acdda8cbb0")
+	)
+	(wire
+		(pts
 			(xy 46.99 132.08) (xy 54.61 132.08)
 		)
 		(stroke
@@ -1136,6 +1283,66 @@
 			(type default)
 		)
 		(uuid "89482a58-0e95-43d7-aacc-f2d8c621f600")
+	)
+	(wire
+		(pts
+			(xy 147.32 46.99) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d65c12d-8d74-478d-b538-c7cf897eb9ab")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de8797f-3ae9-4051-9b70-765a678d4f71")
+	)
+	(wire
+		(pts
+			(xy 48.26 82.55) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902b16ae-ba16-4092-9bc6-5f29a8d8c59b")
+	)
+	(wire
+		(pts
+			(xy 177.8 26.67) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955a58d8-779e-4360-9c71-ce7dba01e87a")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 167.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985a5c4a-5f2c-43bd-8dae-e2881a60b9fb")
+	)
+	(wire
+		(pts
+			(xy 223.52 82.55) (xy 223.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd0c7b6-747f-4a82-8336-eac82497ac3f")
 	)
 	(wire
 		(pts
@@ -1159,6 +1366,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 99.06) (xy 175.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ede31a-a77f-4a8a-901b-d65dcfa43f5d")
+	)
+	(wire
+		(pts
+			(xy 157.48 26.67) (xy 157.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a666108c-f4cc-4ead-9748-1687c5d49c5c")
+	)
+	(wire
+		(pts
 			(xy 46.99 137.16) (xy 54.61 137.16)
 		)
 		(stroke
@@ -1169,6 +1396,86 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 64.77) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa637b3c-50c6-43a4-bd79-c042c2033baa")
+	)
+	(wire
+		(pts
+			(xy 91.44 64.77) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd6105e-4348-4f8a-97f1-aa28ef68904f")
+	)
+	(wire
+		(pts
+			(xy 254 64.77) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb039205-41a1-4923-b78c-e6178f3dd468")
+	)
+	(wire
+		(pts
+			(xy 228.6 46.99) (xy 228.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be914af5-9c0e-43aa-837b-100ab79cd91c")
+	)
+	(wire
+		(pts
+			(xy 309.88 46.99) (xy 309.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d9a8af-6509-49b6-a185-800a5e4ec912")
+	)
+	(wire
+		(pts
+			(xy 320.04 64.77) (xy 320.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fa6b7b-ba67-4909-a995-dc8caa74f0d4")
+	)
+	(wire
+		(pts
+			(xy 50.8 64.77) (xy 50.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0955238-f92a-4cfe-8872-0cd84256f98e")
+	)
+	(wire
+		(pts
+			(xy 152.4 64.77) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1229dcc-1584-41f9-9ba7-816506e525be")
+	)
+	(wire
+		(pts
 			(xy 46.99 147.32) (xy 54.61 147.32)
 		)
 		(stroke
@@ -1176,6 +1483,46 @@
 			(type default)
 		)
 		(uuid "d30728af-0f0d-436f-8699-7b2ed93c67c6")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3de5926-6444-4b06-8be8-fd4f499fb83f")
+	)
+	(wire
+		(pts
+			(xy 116.84 26.67) (xy 116.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1532f88-615a-41ee-9551-a54193fd234a")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 269.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2543a33-22fa-4caf-87b3-5c5ae4a234e1")
+	)
+	(wire
+		(pts
+			(xy 297.18 82.55) (xy 297.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34a754c-6a69-48e4-8413-662f38105554")
 	)
 	(wire
 		(pts
@@ -1199,6 +1546,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 46.99) (xy 187.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1afd4b7-9d2f-4bab-8ed5-6f56ac711650")
+	)
+	(wire
+		(pts
 			(xy 46.99 144.78) (xy 54.61 144.78)
 		)
 		(stroke
@@ -1206,6 +1563,16 @@
 			(type default)
 		)
 		(uuid "f2cd6b3e-e39d-4a55-ab7a-8317abc4e3db")
+	)
+	(wire
+		(pts
+			(xy 289.56 46.99) (xy 289.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbae57f8-561f-4a1a-876e-f13b2883edc2")
 	)
 	(text "To CoCo"
 		(exclude_from_sim no)
@@ -2530,144 +2897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 238.76 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03e387e3-d55e-4e3f-b476-726325a1469d")
-		(property "Reference" "D9"
-			(at 238.76 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 240.03 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 238.76 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fed14127-1ec0-40f1-bf07-dd17e66ab795")
-		)
-		(pin "2"
-			(uuid "31185c97-2b7e-4887-8d7c-5c423e3fe219")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 299.72 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08b1a429-27d9-42e7-b7aa-c5fe7eaaf77f")
-		(property "Reference" "D12"
-			(at 299.72 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 300.99 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 299.72 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "167dd162-8945-42bf-a4e6-f0a69d3fe4fc")
-		)
-		(pin "2"
-			(uuid "a9af15c5-a7cc-42ec-997e-84d178bf02a6")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 208.28 64.77 0)
 		(unit 1)
@@ -2729,144 +2958,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 116.84 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c75c2e6-7059-4859-acda-b48ff4a2468a")
-		(property "Reference" "D3"
-			(at 116.84 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 118.11 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6e74c8d-c820-45fb-98a7-25474a842db3")
-		)
-		(pin "2"
-			(uuid "91fa8a36-8915-4f97-a5d1-6e570cac8f6b")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 248.92 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d310982-d021-4e2d-b7e0-54c33d7dac42")
-		(property "Reference" "D23"
-			(at 248.92 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 250.19 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 248.92 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0b1f042-6e2f-48ae-8cb2-c73116f41942")
-		)
-		(pin "2"
-			(uuid "f32202a6-6f3c-41ee-90b2-49fe1b7c8e36")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -2940,75 +3031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 320.04 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15ff724e-5a44-4c0c-8686-fcef6f2df02c")
-		(property "Reference" "D39"
-			(at 320.04 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 321.31 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 320.04 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "567411f1-b0d2-437a-835d-ba26519658ff")
-		)
-		(pin "2"
-			(uuid "720e9b3c-f7d6-4a4b-bb60-bd97aa054745")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 294.64 26.67 0)
 		(unit 1)
@@ -3070,213 +3092,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 233.68 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "198c9eef-2dcf-4c45-84e4-9a7505339b1a")
-		(property "Reference" "D36"
-			(at 233.68 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 234.95 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed7924b1-d361-41ec-910b-8e441e73eae8")
-		)
-		(pin "2"
-			(uuid "07defb60-2744-4f78-a045-271eb0b2b25a")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 203.2 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bc9f159-882d-4d7e-b049-aa6fe677cd39")
-		(property "Reference" "D47"
-			(at 203.2 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 204.47 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca97213b-0f42-44b3-9b70-5c739b25d147")
-		)
-		(pin "2"
-			(uuid "d8a9f5d8-a1f1-4c9b-85f8-d6294e1fc2e8")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 132.08 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bf0cb37-d885-49c9-a043-9c143f63656b")
-		(property "Reference" "D31"
-			(at 132.08 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 133.35 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d765f638-03dc-43a1-9f70-27b09147e589")
-		)
-		(pin "2"
-			(uuid "4867b10c-6e9b-41ea-a443-1a42ab43f49c")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -3411,75 +3226,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 264.16 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2805523c-0c44-42d4-842d-3aa6610728a6")
-		(property "Reference" "D50"
-			(at 264.16 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 265.43 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 264.16 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab075ca6-d178-4a9a-a899-1600349244ba")
-		)
-		(pin "2"
-			(uuid "e0b209ed-eb23-4018-b298-10dcaa67b2c0")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -3754,213 +3500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 198.12 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3567917e-3115-47c4-822e-2aa0122ca125")
-		(property "Reference" "D7"
-			(at 198.12 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 199.39 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 198.12 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "698d5e18-e227-4527-8e0b-3d54fd9045e9")
-		)
-		(pin "2"
-			(uuid "c589f54b-e4ae-4ed5-8fdb-ba9130242562")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 111.76 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39bc6f30-c27c-4fe1-a29c-044ee27fbb9c")
-		(property "Reference" "D30"
-			(at 111.76 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 113.03 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0151b8c-7305-4462-9597-700ab2ab793d")
-		)
-		(pin "2"
-			(uuid "4effddde-7346-40f6-90fa-44033dd9c9c4")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 81.28 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ad2326e-e2a9-4224-a4a8-6af9412df2b9")
-		(property "Reference" "D41"
-			(at 81.28 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 82.55 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "032ff381-f8a0-4aa2-92db-5e99fb8840ca")
-		)
-		(pin "2"
-			(uuid "d50e1218-4ac0-44e8-a3e5-f37e49afe8d8")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 116.84 82.55 0)
 		(unit 1)
@@ -4089,75 +3628,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 289.56 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ea5e6c6-2726-48ca-a696-3a301e7232f0")
-		(property "Reference" "D25"
-			(at 289.56 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 290.83 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 289.56 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56aa4453-607b-4b9f-88c9-c4f208d46629")
-		)
-		(pin "2"
-			(uuid "84842966-2520-4b34-86de-99806e25255b")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -4298,213 +3768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "441b6444-bf4e-40f7-a049-bd4aad843456")
-		(property "Reference" "D26"
-			(at 309.88 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 311.15 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 309.88 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5164d55c-b358-4ca3-a13e-ed3028234702")
-		)
-		(pin "2"
-			(uuid "59741fc1-cee2-407c-9cc8-c62b994dd7fd")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 157.48 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4aca3d4e-4af0-4cff-b33b-831872812c09")
-		(property "Reference" "D5"
-			(at 157.48 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 158.75 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ece695a0-1842-457e-a23e-d5d08ad56a3b")
-		)
-		(pin "2"
-			(uuid "807d9b76-8389-4b1f-9627-dc11b768951e")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 187.96 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fe5cb64-13b6-4dab-994a-13d0b2de4f82")
-		(property "Reference" "D20"
-			(at 187.96 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 189.23 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3082c7e3-4536-4dd9-a77a-5c45cb9809cf")
-		)
-		(pin "2"
-			(uuid "357ccd6d-4e45-4fa6-a11c-646ebdfeb0f2")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 177.8 82.55 0)
 		(unit 1)
@@ -4566,144 +3829,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 182.88 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55b34e7b-74f5-4358-ac56-ae114520e5f8")
-		(property "Reference" "D46"
-			(at 182.88 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 184.15 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 182.88 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c64d9f2-6eff-4fcd-b1ac-0ef9227221e3")
-		)
-		(pin "2"
-			(uuid "0fff2a82-99e9-495a-81ca-91d07f8b9560")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 76.2 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5807cde8-cd80-46d5-8c72-d4599ed525db")
-		(property "Reference" "D1"
-			(at 76.2 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 77.47 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39781cc6-c95f-4512-9cb0-993b0b85aa92")
-		)
-		(pin "2"
-			(uuid "ed024c88-d608-46b1-8788-1090b01dbcc8")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4777,144 +3902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 71.12 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a374f7d-8111-4153-9006-f17afe638c31")
-		(property "Reference" "D28"
-			(at 71.12 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 72.39 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08ed09ee-ab72-4d4f-8fca-4b7cad05eb88")
-		)
-		(pin "2"
-			(uuid "4bef21ae-92bd-4f58-85b3-72533d528aeb")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 218.44 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ae19377-f174-4f11-9c94-9f99232798d6")
-		(property "Reference" "D8"
-			(at 218.44 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 218.44 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2730b2fe-f4d0-4f80-a056-8faa394bde7f")
-		)
-		(pin "2"
-			(uuid "e694d5f2-39cb-4dd9-98cc-ff7220f20c53")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 137.16 82.55 0)
 		(unit 1)
@@ -4982,144 +3969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 167.64 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6015bbd8-6120-40b4-9d0e-f9057998a3be")
-		(property "Reference" "D19"
-			(at 167.64 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 168.91 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 167.64 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92cb1fc6-a0ed-400c-b478-79fca5586d06")
-		)
-		(pin "2"
-			(uuid "7339f561-2ea8-4fa9-a05d-370861afe862")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 48.26 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65542ce4-2826-4e69-85b0-dcf1cc1e4396")
-		(property "Reference" "D40"
-			(at 48.26 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 49.53 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 48.26 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6909df3-9590-443c-9a77-a997bde2777f")
-		)
-		(pin "2"
-			(uuid "5c19fcf1-0529-4d94-a204-6e540ebb663a")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 193.04 26.67 0)
 		(unit 1)
@@ -5181,213 +4030,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 172.72 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a153af4-668d-4048-802e-6af28d33950b")
-		(property "Reference" "D33"
-			(at 172.72 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 173.99 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bd6dbaa-afe3-498f-a2a7-a6088b0fc89e")
-		)
-		(pin "2"
-			(uuid "e415b02a-43bd-4948-8113-36de167f81cd")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 45.72 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cff9a9b-06cf-4684-b7cf-43ac207f95f1")
-		(property "Reference" "D13"
-			(at 45.72 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 46.99 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3973d8b2-dbff-44a9-ae94-1659c8947196")
-		)
-		(pin "2"
-			(uuid "a665e1ba-f7cd-40ee-8bd9-632648716072")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 121.92 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f38b496-0107-486a-b220-f8636f5efcc8")
-		(property "Reference" "D43"
-			(at 121.92 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 123.19 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc6f1389-47e0-438b-a77b-5405ae528b53")
-		)
-		(pin "2"
-			(uuid "eedd26aa-51b3-4aca-8889-cd4526e36e69")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -5595,420 +4237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 162.56 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a03caf3-528e-417f-a41b-d5b72db9833a")
-		(property "Reference" "D45"
-			(at 162.56 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 163.83 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fadbde2c-5f81-4565-a949-fa7a9561109a")
-		)
-		(pin "2"
-			(uuid "c03ee377-f1d0-41b7-82b4-0ae9856b9855")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 147.32 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ac47eb3-8e99-4cec-a9ea-6fea9beea2a4")
-		(property "Reference" "D18"
-			(at 147.32 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8f61c8e-f676-41fc-aa17-a7e56e6cd0af")
-		)
-		(pin "2"
-			(uuid "8e36c68e-be30-4ca8-8768-c273eff2ba07")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 297.18 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b6d3f43-332f-4fe7-8fcf-2fb72794086f")
-		(property "Reference" "D51"
-			(at 297.18 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 298.45 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 297.18 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a68c7d70-f327-401d-884e-b76fd2a328aa")
-		)
-		(pin "2"
-			(uuid "27dec8c0-6f35-4eb7-bbf4-9c2df178ceda")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 66.04 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c6daf1c-edc0-4809-9f30-cc69bc3bc63f")
-		(property "Reference" "D14"
-			(at 66.04 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 67.31 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7943a128-2063-4e46-9aec-a8ea14bbb341")
-		)
-		(pin "2"
-			(uuid "7faceab3-f87c-46b8-ab53-6a0aa447ae9d")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 177.8 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e116ce9-be63-4404-b444-ad42b7918947")
-		(property "Reference" "D6"
-			(at 177.8 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 179.07 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 177.8 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "489ee37d-bc89-4746-bace-3bc52e42ff56")
-		)
-		(pin "2"
-			(uuid "6afe2a46-8d70-4b4f-84a2-c7f2220a4fa3")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 213.36 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fab6396-8f39-49c9-96a0-e8885c1ba6af")
-		(property "Reference" "D35"
-			(at 213.36 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 214.63 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 213.36 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29fedeac-363e-4250-ad29-1b75359ed4a0")
-		)
-		(pin "2"
-			(uuid "3e83a629-a69c-4d5e-a1c2-a3fb3ab1744c")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 248.92 64.77 0)
 		(unit 1)
@@ -6143,75 +4371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 106.68 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "894a1068-24c3-4a99-b10d-bfc0eebcd1a7")
-		(property "Reference" "D16"
-			(at 106.68 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 107.95 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c1a4d2f-17e4-4e53-923e-6f9146423485")
-		)
-		(pin "2"
-			(uuid "76c7132d-973a-4618-ad16-8987006ebf8f")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 43.18 82.55 0)
 		(unit 1)
@@ -6340,75 +4499,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 228.6 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e8ccd4e-93da-42a3-b7a0-a72b4144c0b8")
-		(property "Reference" "D22"
-			(at 228.6 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 229.87 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de47faae-3850-4e4f-b314-86674f6bbd1e")
-		)
-		(pin "2"
-			(uuid "c46a2be6-f337-4c9a-9bc8-4157db79ac66")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6616,144 +4706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 142.24 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a05bb91f-9486-4bee-bd8a-0e1ebfe111af")
-		(property "Reference" "D44"
-			(at 142.24 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 143.51 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8410122-0303-4ab0-9b5b-57d761ddf334")
-		)
-		(pin "2"
-			(uuid "d1bccdfe-ecb9-421a-a70d-b78ed62e1685")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 96.52 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9d879a1-d2de-44f5-86fb-a247cc50eff0")
-		(property "Reference" "D2"
-			(at 96.52 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 97.79 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "526fa533-3b3f-412b-9237-44fc6f232944")
-		)
-		(pin "2"
-			(uuid "82d83984-b780-4a46-bba2-68927328d146")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 243.84 46.99 0)
 		(unit 1)
@@ -6815,75 +4767,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 91.44 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aca23bdb-3904-4da9-9a1f-c814f3d98b77")
-		(property "Reference" "D29"
-			(at 91.44 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 92.71 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b9898af-87ab-4a03-a738-9325a5a23e59")
-		)
-		(pin "2"
-			(uuid "c6354e62-a876-4781-bd54-647e2a368fed")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -7091,144 +4974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 279.4 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba7517b3-0c3b-4ccc-8efb-9c181278ff5c")
-		(property "Reference" "D11"
-			(at 279.4 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 280.67 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 279.4 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bebe2531-c037-4a38-a323-e35b6da180be")
-		)
-		(pin "2"
-			(uuid "abe03c1e-796f-4811-b399-4499040b0a1e")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 254 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba8362cb-ddb1-4853-b057-dace9e0dda6a")
-		(property "Reference" "D37"
-			(at 254 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 255.27 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a23f5f71-00cb-418e-849c-86f769613b22")
-		)
-		(pin "2"
-			(uuid "792fb684-5792-462f-baf5-699c50f79351")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
 		(at 41.91 132.08 0)
 		(unit 1)
@@ -7339,144 +5084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 152.4 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb1debbd-1fd2-4b3f-9197-e4f20f1d7e9d")
-		(property "Reference" "D32"
-			(at 152.4 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 153.67 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c95d8e75-6ca1-4758-862c-a45a3b17f2ea")
-		)
-		(pin "2"
-			(uuid "84b2b6ac-9f13-44f9-bdca-5c973368bb06")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 259.08 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcd77bb1-9359-4b4b-bee6-ee7f074056a1")
-		(property "Reference" "D10"
-			(at 259.08 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 260.35 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 259.08 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec493574-1a60-4653-9d4a-483a5d750c84")
-		)
-		(pin "2"
-			(uuid "7a0b99f8-9799-4e0a-8ffd-7044b19c081c")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 203.2 46.99 0)
 		(unit 1)
@@ -7538,75 +5145,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 127 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c368ec14-85bb-4a9b-9865-da798dc7190d")
-		(property "Reference" "D17"
-			(at 127 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 128.27 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b713f8f-e7db-43dd-90f2-7b1626f00f5e")
-		)
-		(pin "2"
-			(uuid "f5a2dc12-392e-4487-90b9-84ecbd3c0057")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7680,351 +5218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6e9b77e-6341-4491-836c-c0114bd735ee")
-		(property "Reference" "D4"
-			(at 137.16 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 138.43 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e97bbb7-a17a-40c4-ae7a-edcd4ed0aae3")
-		)
-		(pin "2"
-			(uuid "c8f95196-ce5e-4905-9a11-b6b986e453a1")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 208.28 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9f663ef-2dd0-46c1-beff-35e4ea36a9ba")
-		(property "Reference" "D21"
-			(at 208.28 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 209.55 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d46fca03-e248-4646-a54c-981144435af8")
-		)
-		(pin "2"
-			(uuid "1592a222-79f8-4037-a3fb-8c74f1f1175a")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 269.24 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cba01f4b-50cf-427c-90d8-cd24cb062fbb")
-		(property "Reference" "D24"
-			(at 269.24 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 270.51 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7048ccc-6f34-48cb-8793-166968843eb7")
-		)
-		(pin "2"
-			(uuid "195e9467-6259-4d97-8293-2644055f6201")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 223.52 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf62d908-56f9-4616-abfd-662dfb308dab")
-		(property "Reference" "D48"
-			(at 223.52 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 224.79 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e829256-0f3d-48a0-8c5b-3bdcbbc23a10")
-		)
-		(pin "2"
-			(uuid "b5333a86-6d61-4e56-acb0-90ad25709030")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 193.04 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf927ae5-3e74-457b-baf3-8346a697d6d5")
-		(property "Reference" "D34"
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 194.31 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6a96144-4b87-4b92-a01f-889d3ff66413")
-		)
-		(pin "2"
-			(uuid "69ce1d8e-85ef-4603-be17-585cdecd912a")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 111.76 26.67 0)
 		(unit 1)
@@ -8092,75 +5285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 287.02 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3d1aeac-7e50-417c-b4da-d2e680e8833e")
-		(property "Reference" "D38"
-			(at 287.02 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 288.29 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 287.02 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76940262-690d-488a-bd58-7a0d20b18ab0")
-		)
-		(pin "2"
-			(uuid "19aaed23-d5cb-4e0f-b25a-6c73beaac5e8")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 142.24 46.99 0)
 		(unit 1)
@@ -8222,75 +5346,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 243.84 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5491e03-c9b6-463b-81ce-b3f5ca1cd740")
-		(property "Reference" "D49"
-			(at 243.84 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 245.11 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1869ff9-8979-4146-ab2c-a06c2d20ac1d")
-		)
-		(pin "2"
-			(uuid "3ba56e7c-1d15-419c-ad0d-a9a39605834b")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -9034,144 +6089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 55.88 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edd68337-8dbd-41e1-9796-94600284be81")
-		(property "Reference" "D0"
-			(at 55.88 27.94 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 57.15 36.83 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 55.88 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e591d516-a4ea-40a6-98d1-ae1ec57cf47a")
-		)
-		(pin "2"
-			(uuid "92df8c99-2ee0-4bcb-aa6a-c6dd127874b7")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 101.6 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee2c5233-d234-4a82-9005-996310409de0")
-		(property "Reference" "D42"
-			(at 101.6 83.82 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 102.87 92.71 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 101.6 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "319ab14f-1c8b-4cd3-a00e-b5e6e821d381")
-		)
-		(pin "2"
-			(uuid "6f2761f7-0e04-4e75-b7e8-d64a99d8f453")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 172.72 26.67 0)
 		(unit 1)
@@ -9434,213 +6351,6 @@
 			(project ""
 				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
 					(reference "K32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 50.8 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fad34929-4791-46e9-ae53-43f609d478cd")
-		(property "Reference" "D27"
-			(at 50.8 66.04 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 52.07 74.93 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "475f85b8-f23e-4210-a704-962d5d86b29b")
-		)
-		(pin "2"
-			(uuid "b5346a50-9407-4f5a-a557-f9606208c8d0")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 86.36 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "faec740c-b3e2-4c6c-8417-3825ddd71ac0")
-		(property "Reference" "D15"
-			(at 86.36 48.26 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 87.63 57.15 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 86.36 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b39bcfb9-9457-4dd8-9ca3-3fa810e9f246")
-		)
-		(pin "2"
-			(uuid "847cc477-a0c4-47e4-a4a2-c8baaff93be3")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 175.26 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe922589-f52b-41da-9e0e-dc69fa5ba9a0")
-		(property "Reference" "D52"
-			(at 175.26 100.33 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 176.53 109.22 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 175.26 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f94a68dc-1fe4-462d-8399-2f10a3926a20")
-		)
-		(pin "2"
-			(uuid "707b2af1-1e46-4dd3-83ef-ae5113e9f8b0")
-		)
-		(instances
-			(project ""
-				(path "/b3a9f9a0-3447-495d-92b3-d3b21300711e"
-					(reference "D52")
 					(unit 1)
 				)
 			)
