@@ -1626,6 +1626,7 @@
 	)
 	(label "Col1"
 		(at 91.44 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1636,6 +1637,7 @@
 	)
 	(label "Row1"
 		(at 121.92 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1646,6 +1648,7 @@
 	)
 	(label "Row5"
 		(at 238.76 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1656,6 +1659,7 @@
 	)
 	(label "Col6"
 		(at 177.8 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,6 +1670,7 @@
 	)
 	(label "Row6"
 		(at 264.16 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,6 +1714,7 @@
 	)
 	(label "Row1"
 		(at 269.24 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,6 +1736,7 @@
 	)
 	(label "Col7"
 		(at 121.92 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,6 +1747,7 @@
 	)
 	(label "Row6"
 		(at 259.08 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1750,6 +1758,7 @@
 	)
 	(label "Row2"
 		(at 193.04 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,6 +1780,7 @@
 	)
 	(label "Col4"
 		(at 35.56 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1781,6 +1791,7 @@
 	)
 	(label "Col2"
 		(at 60.96 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1791,6 +1802,7 @@
 	)
 	(label "Col8"
 		(at 254 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1801,6 +1813,7 @@
 	)
 	(label "Row6"
 		(at 279.4 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1811,6 +1824,7 @@
 	)
 	(label "Col3"
 		(at 71.12 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1821,6 +1835,7 @@
 	)
 	(label "Col3"
 		(at 182.88 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1831,6 +1846,7 @@
 	)
 	(label "Row4"
 		(at 45.72 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1841,6 +1857,7 @@
 	)
 	(label "Row6"
 		(at 223.52 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1851,6 +1868,7 @@
 	)
 	(label "Col8"
 		(at 165.1 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,6 +1879,7 @@
 	)
 	(label "Col3"
 		(at 289.56 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1871,6 +1890,7 @@
 	)
 	(label "Row7"
 		(at 297.18 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1881,6 +1901,7 @@
 	)
 	(label "Row4"
 		(at 81.28 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1891,6 +1912,7 @@
 	)
 	(label "Row6"
 		(at 198.12 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1901,6 +1923,7 @@
 	)
 	(label "Row3"
 		(at 248.92 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1911,6 +1934,7 @@
 	)
 	(label "Col8"
 		(at 287.02 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1921,6 +1945,7 @@
 	)
 	(label "Col2"
 		(at 157.48 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,6 +1956,7 @@
 	)
 	(label "Row3"
 		(at 147.32 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,6 +1967,7 @@
 	)
 	(label "Row3"
 		(at 142.24 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1951,6 +1978,7 @@
 	)
 	(label "Row4"
 		(at 50.8 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,6 +1989,7 @@
 	)
 	(label "Col1"
 		(at 259.08 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,6 +2000,7 @@
 	)
 	(label "Col6"
 		(at 127 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,6 +2011,7 @@
 	)
 	(label "Row7"
 		(at 320.04 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,6 +2022,7 @@
 	)
 	(label "Row2"
 		(at 182.88 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,6 +2033,7 @@
 	)
 	(label "Col2"
 		(at 208.28 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,6 +2044,7 @@
 	)
 	(label "Col1"
 		(at 276.86 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2021,6 +2055,7 @@
 	)
 	(label "Row2"
 		(at 172.72 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,6 +2066,7 @@
 	)
 	(label "Col1"
 		(at 238.76 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,6 +2077,7 @@
 	)
 	(label "Col8"
 		(at 142.24 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,6 +2088,7 @@
 	)
 	(label "Row6"
 		(at 254 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2061,6 +2099,7 @@
 	)
 	(label "Col7"
 		(at 132.08 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,6 +2110,7 @@
 	)
 	(label "Row5"
 		(at 175.26 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,6 +2121,7 @@
 	)
 	(label "Row6"
 		(at 243.84 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2091,6 +2132,7 @@
 	)
 	(label "Col5"
 		(at 40.64 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2101,6 +2143,7 @@
 	)
 	(label "Row2"
 		(at 213.36 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2111,6 +2154,7 @@
 	)
 	(label "Row1"
 		(at 71.12 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2121,6 +2165,7 @@
 	)
 	(label "Col6"
 		(at 269.24 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2131,6 +2176,7 @@
 	)
 	(label "Row4"
 		(at 309.88 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2141,6 +2187,7 @@
 	)
 	(label "Row7"
 		(at 299.72 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2151,6 +2198,7 @@
 	)
 	(label "Col6"
 		(at 279.4 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2161,6 +2209,7 @@
 	)
 	(label "Row1"
 		(at 132.08 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2171,6 +2220,7 @@
 	)
 	(label "Row5"
 		(at 116.84 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2181,6 +2231,7 @@
 	)
 	(label "Col1"
 		(at 187.96 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2191,6 +2242,7 @@
 	)
 	(label "Row3"
 		(at 187.96 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2201,6 +2253,7 @@
 	)
 	(label "Row1"
 		(at 152.4 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,6 +2264,7 @@
 	)
 	(label "Col3"
 		(at 116.84 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2221,6 +2275,7 @@
 	)
 	(label "Col8"
 		(at 167.64 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2231,6 +2286,7 @@
 	)
 	(label "Col8"
 		(at 218.44 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2241,6 +2297,7 @@
 	)
 	(label "Col2"
 		(at 55.88 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2251,6 +2308,7 @@
 	)
 	(label "Col4"
 		(at 203.2 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,6 +2319,7 @@
 	)
 	(label "Row2"
 		(at 233.68 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2271,6 +2330,7 @@
 	)
 	(label "Col4"
 		(at 243.84 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2281,6 +2341,7 @@
 	)
 	(label "Row5"
 		(at 177.8 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2291,6 +2352,7 @@
 	)
 	(label "Col5"
 		(at 223.52 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2301,6 +2363,7 @@
 	)
 	(label "Row5"
 		(at 137.16 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2311,6 +2374,7 @@
 	)
 	(label "Col7"
 		(at 299.72 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2321,6 +2385,7 @@
 	)
 	(label "Row4"
 		(at 167.64 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2331,6 +2396,7 @@
 	)
 	(label "Col7"
 		(at 172.72 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2363,6 +2429,7 @@
 	)
 	(label "Col8"
 		(at 76.2 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2373,6 +2440,7 @@
 	)
 	(label "Row4"
 		(at 289.56 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2383,6 +2451,7 @@
 	)
 	(label "Col4"
 		(at 86.36 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2393,6 +2462,7 @@
 	)
 	(label "Row2"
 		(at 203.2 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2414,6 +2484,7 @@
 	)
 	(label "Row1"
 		(at 162.56 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2424,6 +2495,7 @@
 	)
 	(label "Col2"
 		(at 309.88 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2434,6 +2506,7 @@
 	)
 	(label "Row3"
 		(at 127 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2444,6 +2517,7 @@
 	)
 	(label "Row5"
 		(at 55.88 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2498,6 +2572,7 @@
 	)
 	(label "Row3"
 		(at 91.44 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2508,6 +2583,7 @@
 	)
 	(label "Col7"
 		(at 233.68 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2518,6 +2594,7 @@
 	)
 	(label "Col2"
 		(at 198.12 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,6 +2605,7 @@
 	)
 	(label "Col3"
 		(at 152.4 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2538,6 +2616,7 @@
 	)
 	(label "Row1"
 		(at 106.68 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2548,6 +2627,7 @@
 	)
 	(label "Col4"
 		(at 81.28 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2558,6 +2638,7 @@
 	)
 	(label "Col6"
 		(at 96.52 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2568,6 +2649,7 @@
 	)
 	(label "Col5"
 		(at 213.36 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,6 +2660,7 @@
 	)
 	(label "Row1"
 		(at 111.76 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,6 +2671,7 @@
 	)
 	(label "Col6"
 		(at 193.04 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2609,6 +2693,7 @@
 	)
 	(label "Col5"
 		(at 137.16 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2619,6 +2704,7 @@
 	)
 	(label "Col4"
 		(at 111.76 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,6 +2715,7 @@
 	)
 	(label "Col8"
 		(at 38.1 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2639,6 +2726,7 @@
 	)
 	(label "Col3"
 		(at 66.04 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,6 +2737,7 @@
 	)
 	(label "Row3"
 		(at 66.04 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2659,6 +2748,7 @@
 	)
 	(label "Row3"
 		(at 86.36 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2669,6 +2759,7 @@
 	)
 	(label "Row2"
 		(at 208.28 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2679,6 +2770,7 @@
 	)
 	(label "Col2"
 		(at 45.72 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2689,6 +2781,7 @@
 	)
 	(label "Col7"
 		(at 147.32 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2699,6 +2792,7 @@
 	)
 	(label "Col1"
 		(at 228.6 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2709,6 +2803,7 @@
 	)
 	(label "Col1"
 		(at 162.56 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2719,6 +2814,7 @@
 	)
 	(label "Row5"
 		(at 76.2 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2729,6 +2825,7 @@
 	)
 	(label "Row2"
 		(at 228.6 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,6 +2836,7 @@
 	)
 	(label "Row7"
 		(at 287.02 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2749,6 +2847,7 @@
 	)
 	(label "Col2"
 		(at 248.92 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2759,6 +2858,7 @@
 	)
 	(label "Row7"
 		(at 48.26 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2769,6 +2869,7 @@
 	)
 	(label "Row5"
 		(at 157.48 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2779,6 +2880,7 @@
 	)
 	(label "Row6"
 		(at 218.44 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2811,6 +2913,7 @@
 	)
 	(label "Row5"
 		(at 96.52 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2821,6 +2924,7 @@
 	)
 	(label "Col5"
 		(at 106.68 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2831,6 +2935,7 @@
 	)
 	(label "Col5"
 		(at 101.6 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2841,6 +2946,7 @@
 	)
 	(label "Row4"
 		(at 101.6 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4995,16 +5101,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
-		(at 41.91 132.08 0)
+		(at 41.91 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ba97ff8f-87c6-4f69-80c1-d5a269e58d58")
 		(property "Reference" "J1"
-			(at 42.545 109.22 0)
+			(at 42.545 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5118,7 @@
 			)
 		)
 		(property "Value" "Conn_01x16_Pin"
-			(at 42.545 111.76 0)
+			(at 42.545 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Horizontal"
-			(at 41.91 132.08 0)
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 132.08 0)
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 41.91 132.08 0)
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
