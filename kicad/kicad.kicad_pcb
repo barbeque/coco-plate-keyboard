@@ -64,9 +64,9 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -16178,6 +16178,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f7d14289-0487-44e1-a989-dafa8c9fb729")
+	)
+	(gr_text "coco keyboard insert v1\nleadedsolder.com 2024"
+		(at 353.175 189.675 0)
+		(layer "F.SilkS")
+		(uuid "fbd7bacb-1f43-4258-ad9e-570566badd65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type aligned)
