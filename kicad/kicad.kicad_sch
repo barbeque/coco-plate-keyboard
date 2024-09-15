@@ -1574,6 +1574,16 @@
 		)
 		(uuid "fbae57f8-561f-4a1a-876e-f13b2883edc2")
 	)
+	(text "TODO: Get the connector right"
+		(exclude_from_sim no)
+		(at 21.59 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b60bef2-ee5c-4a21-8a78-0cb225700502")
+	)
 	(text "To CoCo"
 		(exclude_from_sim no)
 		(at 28.194 132.842 0)
