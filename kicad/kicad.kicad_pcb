@@ -17761,6 +17761,198 @@
 		(layer "Edge.Cuts")
 		(uuid "f7d14289-0487-44e1-a989-dafa8c9fb729")
 	)
+	(gr_text "Col 4"
+		(at 236.855 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "0bfba4e3-8d0e-4a89-9fc3-baf1118a1216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 3"
+		(at 234.315 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "25e008b0-c3e6-4b06-a48d-d449fbbfd08a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 7"
+		(at 244.475 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "3d119b08-1520-4781-b8d6-9375cc3b7cd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 6"
+		(at 241.935 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "4dc7f2c7-6cb7-42c3-8e5e-31f7f11f5d4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 4"
+		(at 219.075 83.82 270)
+		(layer "B.SilkS")
+		(uuid "528ef094-cd9d-4a77-916a-7fcba41ae19b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 2"
+		(at 231.775 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "6464b4f4-57be-4ed0-8618-8d222b5fe037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 5"
+		(at 221.615 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "6b8c27a7-602c-4579-b022-9b0242f051c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 8"
+		(at 247.015 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "8ae7e820-e55c-474c-8197-db7d8526c531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 3"
+		(at 216.535 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "8efa17d2-8b89-4cb7-9c8c-6be353a5212c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "KEY"
+		(at 213.995 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "9083f664-e89f-4cc7-b8c3-472547666dee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 1"
+		(at 229.235 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "9bb1cc3a-6f84-471e-9b09-9a2508d2ca6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 2"
+		(at 211.455 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "cb221574-5bc8-47a4-a5eb-865906bc5d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 7"
+		(at 226.695 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "df3d7ac8-2a65-441f-9735-ad2eb9f6b3ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Col 5"
+		(at 239.395 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "ec6c9ae1-c6bf-452c-9324-789083e89ea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 1"
+		(at 208.915 83.82 270)
+		(layer "B.SilkS")
+		(uuid "edc7abc8-d739-48f0-916b-1419374bca2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Row 6"
+		(at 224.155 83.82 -90)
+		(layer "B.SilkS")
+		(uuid "f2278787-561d-457c-b550-456f0ec6c2f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "coco keyboard insert v1\nleadedsolder.com 2024"
 		(at 353.175 189.675 0)
 		(layer "F.SilkS")
