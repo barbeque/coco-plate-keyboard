@@ -1594,6 +1594,16 @@
 		)
 		(uuid "2850026b-f81d-412a-8801-dc720f50c528")
 	)
+	(text "TODO: Overall mounting holes"
+		(exclude_from_sim no)
+		(at 41.91 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "379ef1c4-90da-4e7a-83c1-9745b8e996c5")
+	)
 	(text "TODO: Sub-PCB to connect to CoCo connector"
 		(exclude_from_sim no)
 		(at 54.102 101.854 0)
@@ -1604,15 +1614,15 @@
 		)
 		(uuid "a7c856cf-3c2c-4c7e-83c7-d162b1769879")
 	)
-	(text "TODO: Rewire the matrices the way they're supposed to go for a CoCo"
+	(text "TODO: Mounting holes for plate, if we decide we need one"
 		(exclude_from_sim no)
-		(at 65.786 99.06 0)
+		(at 43.434 104.394 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "d6d925cb-5748-4604-ab00-4140b409be6a")
+		(uuid "efed2364-7bf5-4f1a-982b-28e4a8bf8747")
 	)
 	(label "Col1"
 		(at 91.44 82.55 180)
