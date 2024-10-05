@@ -17786,7 +17786,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "coco keyboard insert v1\nleadedsolder.com 2024"
+	(gr_text "coco keyboard insert v2\nleadedsolder.com 2024"
 		(at 366.5 192 0)
 		(layer "F.SilkS")
 		(uuid "fbd7bacb-1f43-4258-ad9e-570566badd65")
