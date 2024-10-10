@@ -3493,7 +3493,7 @@
 		)
 		(uuid "e7b14913-84b0-4d5e-8868-c8504f96cbc7")
 	)
-	(label "Col2"
+	(label "Col3"
 		(at 248.92 26.67 180)
 		(fields_autoplaced yes)
 		(effects
