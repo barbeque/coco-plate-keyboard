@@ -2250,7 +2250,7 @@
 		)
 		(uuid "efed2364-7bf5-4f1a-982b-28e4a8bf8747")
 	)
-	(text "Bodge list:\n- Space bar should be on row 4"
+	(text "Bodge list (v1 -> v2):\n- Space bar should be on row 4\n- Asterisk key should be on column 3"
 		(exclude_from_sim no)
 		(at 175.768 116.586 0)
 		(effects

@@ -67,7 +67,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "plot")
+			(outputdirectory "coco-keyboard-pcb-v2")
 		)
 	)
 	(net 0 "")
