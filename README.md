@@ -9,3 +9,9 @@ This branch contains a 3D printable plate for fly-wiring switches. It is not tes
 
 ### kicad-pcb
 This branch contains a KiCad-developed PCB for mounting Gateron-style switches. It has been tested. You can [get the gerbers from the Releases page](https://github.com/barbeque/coco-plate-keyboard/releases).
+
+## How to build
+TODO
+
+## License
+These projects are licensed under the [CERN Open Hardware License, Strongly Reciprocal](https://spdx.org/licenses/CERN-OHL-S-2.0.html).
